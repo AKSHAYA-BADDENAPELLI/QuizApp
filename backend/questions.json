@@ -1,0 +1,557 @@
+[
+    {
+        "question": "What is the output of print(2 ** 3)?",
+        "options": ["6", "8", "9", "12"],
+        "answer": "8"
+    },
+    {
+        "question": "How do you create a list in Python?",
+        "options": ["my_list = {1, 2, 3}", "my_list = [1, 2, 3]", "my_list = (1, 2, 3)", "my_list = list[1, 2, 3]"],
+        "answer": "my_list = [1, 2, 3]"
+    },
+    {
+        "question": "What is the difference between a tuple and a list?",
+        "options": ["Tuples are mutable, lists are immutable", "Tuples are immutable, lists are mutable", "Both are immutable", "Both are mutable"],
+        "answer": "Tuples are immutable, lists are mutable"
+    },
+    {
+        "question": "How do you define a function in Python?",
+        "options": ["function function_name():", "def function_name(parameters):", "func function_name[]:", "define function_name{}:"],
+        "answer": "def function_name(parameters):"
+    },
+    {
+        "question": "What keyword is used to handle exceptions in Python?",
+        "options": ["catch/try", "try/except", "handle/except", "try/catch"],
+        "answer": "try/except"
+    },
+    {
+        "question": "How do you import a module in Python?",
+        "options": ["include module_name", "import module_name", "require module_name", "use module_name"],
+        "answer": "import module_name"
+    },
+    {
+        "question": "What is the purpose of the 'self' parameter in a class method?",
+        "options": ["Refers to the class itself", "Refers to the instance of the class", "Refers to the parent class", "Refers to the method name"],
+        "answer": "Refers to the instance of the class"
+    },
+    {
+        "question": "How do you check the type of a variable?",
+        "options": ["typeof(variable)", "type(variable)", "variable.type()", "get_type(variable)"],
+        "answer": "type(variable)"
+    },
+    {
+        "question": "What is the output of len('Python')?",
+        "options": ["5", "6", "7", "4"],
+        "answer": "6"
+    },
+    {
+        "question": "How do you create a dictionary in Python?",
+        "options": ["my_dict = [key: value]", "my_dict = {'key': 'value'}", "my_dict = (key, value)", "my_dict = set[key, value]"],
+        "answer": "my_dict = {'key': 'value'}"
+    },
+    {
+        "question": "What is a list comprehension?",
+        "options": ["{expression for item in iterable}", "[expression for item in iterable]", "(expression for item in iterable)", "<expression for item in iterable>"],
+        "answer": "[expression for item in iterable]"
+    },
+    {
+        "question": "How do you open a file in Python?",
+        "options": ["open('file.txt', 'r')", "with open('file.txt', 'r') as file:", "file('file.txt', 'r')", "read_file('file.txt')"],
+        "answer": "with open('file.txt', 'r') as file:"
+    },
+    {
+        "question": "What is the difference between '==' and 'is'?",
+        "options": ["'==' checks identity, 'is' checks value", "'==' checks value equality, 'is' checks identity", "Both check value equality", "Both check identity"],
+        "answer": "'==' checks value equality, 'is' checks identity"
+    },
+    {
+        "question": "What does the 'pass' keyword do?",
+        "options": ["Exits a loop", "Acts as a placeholder, does nothing", "Skips to the next iteration", "Returns a value"],
+        "answer": "Acts as a placeholder, does nothing"
+    },
+    {
+        "question": "How do you convert a string to an integer?",
+        "options": ["str(string)", "int(string)", "float(string)", "to_int(string)"],
+        "answer": "int(string)"
+    },
+    {
+        "question": "What is the output of print('Hello'[1])?",
+        "options": ["H", "e", "l", "o"],
+        "answer": "e"
+    },
+    {
+        "question": "How do you create a set in Python?",
+        "options": ["my_set = [1, 2, 3]", "my_set = (1, 2, 3)", "my_set = {1, 2, 3}", "my_set = dict(1, 2, 3)"],
+        "answer": "my_set = {1, 2, 3}"
+    },
+    {
+        "question": "What is a lambda function?",
+        "options": ["def arguments: expression", "lambda arguments: expression", "func arguments: expression", "anonymous arguments: expression"],
+        "answer": "lambda arguments: expression"
+    },
+    {
+        "question": "How do you remove an item from a list?",
+        "options": ["list.delete(item)", "list.remove(item)", "list.pop(item)", "list.discard(item)"],
+        "answer": "list.remove(item)"
+    },
+    {
+        "question": "What is the purpose of the '__init__' method?",
+        "options": ["Defines a static method", "Initializes a class instance", "Destroys a class instance", "Calls a parent class"],
+        "answer": "Initializes a class instance"
+    },
+    {
+        "question": "How do you check if a key exists in a dictionary?",
+        "options": ["key in dict", "dict.contains(key)", "dict.has_key(key)", "key.exists(dict)"],
+        "answer": "key in dict"
+    },
+    {
+        "question": "What is the output of print(10 // 3)?",
+        "options": ["3", "3.33", "4", "2"],
+        "answer": "3"
+    },
+    {
+        "question": "How do you reverse a list?",
+        "options": ["list.reverse()", "list.flip()", "list.invert()", "list.backward()"],
+        "answer": "list.reverse()"
+    },
+    {
+        "question": "What is the difference between 'append' and 'extend'?",
+        "options": ["'append' adds multiple items, 'extend' adds one", "'append' adds one item, 'extend' adds multiple", "Both add one item", "Both add multiple items"],
+        "answer": "'append' adds one item, 'extend' adds multiple"
+    },
+    {
+        "question": "How do you handle file not found errors?",
+        "options": ["try: open('file.txt') except IOError:", "try: open('file.txt') except FileNotFoundError:", "catch: open('file.txt') except FileError:", "try: read('file.txt') except NotFound:"],
+        "answer": "try: open('file.txt') except FileNotFoundError:"
+    },
+    {
+        "question": "What is the output of print(bool(0))?",
+        "options": ["True", "False", "None", "0"],
+        "answer": "False"
+    },
+    {
+        "question": "How do you create a class in Python?",
+        "options": ["class ClassName:", "struct ClassName{}", "define ClassName[]", "class ClassName()"],
+        "answer": "class ClassName:"
+    },
+    {
+        "question": "What is the purpose of the 'global' keyword?",
+        "options": ["Declares a local variable", "Accesses a global variable inside a function", "Defines a static variable", "Imports a module"],
+        "answer": "Accesses a global variable inside a function"
+    },
+    {
+        "question": "How do you sort a list?",
+        "options": ["list.sort()", "list.order()", "list.arrange()", "list.sequence()"],
+        "answer": "list.sort()"
+    },
+    {
+        "question": "What is the output of print(5 % 2)?",
+        "options": ["2", "1", "3", "0"],
+        "answer": "1"
+    },
+    {
+        "question": "How do you join a list of strings?",
+        "options": ["'delimiter'.join(list)", "list.join('delimiter')", "concat(list, 'delimiter')", "merge(list, 'delimiter')"],
+        "answer": "'delimiter'.join(list)"
+    },
+    {
+        "question": "What is a generator in Python?",
+        "options": ["A function that returns a list", "A function that yields values one at a time", "A function that runs in parallel", "A function that loops indefinitely"],
+        "answer": "A function that yields values one at a time"
+    },
+    {
+        "question": "How do you check if a string is empty?",
+        "options": ["if string == ''", "if not string:", "if string.empty()", "if len(string) == 0"],
+        "answer": "if not string:"
+    },
+    {
+        "question": "What is the output of print('abc'.upper())?",
+        "options": ["abc", "ABC", "Abc", "aBC"],
+        "answer": "ABC"
+    },
+    {
+        "question": "How do you create a virtual environment?",
+        "options": ["python -m virtualenv env_name", "python -m venv env_name", "venv create env_name", "python create_env env_name"],
+        "answer": "python -m venv env_name"
+    },
+    {
+        "question": "What does the 'break' keyword do?",
+        "options": ["Skips to the next iteration", "Exits the nearest enclosing loop", "Pauses the loop", "Restarts the loop"],
+        "answer": "Exits the nearest enclosing loop"
+    },
+    {
+        "question": "How do you find the maximum value in a list?",
+        "options": ["list.max()", "max(list)", "list.highest()", "maximum(list)"],
+        "answer": "max(list)"
+    },
+    {
+        "question": "What is the purpose of the 'return' statement?",
+        "options": ["Exits a loop", "Exits a function and returns a value", "Skips to the next line", "Declares a variable"],
+        "answer": "Exits a function and returns a value"
+    },
+    {
+        "question": "How do you slice a list?",
+        "options": ["list[start:end:step]", "list.slice(start, end)", "list[start:end]", "list[begin:stop:jump]"],
+        "answer": "list[start:end:step]"
+    },
+    {
+        "question": "What is the output of print(type([]))?",
+        "options": ["<class 'tuple'>", "<class 'list'>", "<class 'set'>", "<class 'dict'>"],
+        "answer": "<class 'list'>"
+    },
+    {
+        "question": "How do you copy a list?",
+        "options": ["list.copy()", "list.duplicate()", "list.clone()", "list.replicate()"],
+        "answer": "list.copy()"
+    },
+    {
+        "question": "What is a decorator in Python?",
+        "options": ["A function that modifies another function", "A class that inherits another class", "A method that initializes a class", "A loop that iterates functions"],
+        "answer": "A function that modifies another function"
+    },
+    {
+        "question": "How do you check if an object is an instance of a class?",
+        "options": ["instanceof(object, Class)", "isinstance(object, Class)", "type(object, Class)", "check_instance(object, Class)"],
+        "answer": "isinstance(object, Class)"
+    },
+    {
+        "question": "What is the output of print(3.14 * 2)?",
+        "options": ["6.28", "6.14", "6.0", "6.3"],
+        "answer": "6.28"
+    },
+    {
+        "question": "How do you remove duplicates from a list?",
+        "options": ["unique(list)", "list(set(list))", "list.distinct()", "list.unique()"],
+        "answer": "list(set(list))"
+    },
+    {
+        "question": "What is the purpose of the 'elif' keyword?",
+        "options": ["Ends a loop", "Provides additional condition checks", "Declares a function", "Handles exceptions"],
+        "answer": "Provides additional condition checks"
+    },
+    {
+        "question": "How do you convert a list to a string?",
+        "options": ["''.join(list)", "list.to_string()", "str.join(list)", "convert(list, string)"],
+        "answer": "''.join(list)"
+    },
+    {
+        "question": "What is the output of print('a' in 'abc')?",
+        "options": ["True", "False", "None", "Error"],
+        "answer": "True"
+    },
+    {
+        "question": "How do you handle multiple exceptions?",
+        "options": ["except Exception1, Exception2:", "except (Exception1, Exception2):", "catch (Exception1 | Exception2):", "try (Exception1, Exception2):"],
+        "answer": "except (Exception1, Exception2):"
+    },
+    {
+        "question": "What is the purpose of the 'None' value?",
+        "options": ["Represents an empty string", "Represents the absence of a value", "Represents zero", "Represents an empty list"],
+        "answer": "Represents the absence of a value"
+    },
+    {
+        "question": "How do you create a range object?",
+        "options": ["range(start, stop, step)", "range(start:stop:step)", "range[start, stop, step]", "create_range(start, stop, step)"],
+        "answer": "range(start, stop, step)"
+    },
+    {
+        "question": "What is the output of print(list(range(3)))?",
+        "options": ["[1, 2, 3]", "[0, 1, 2]", "[0, 1, 2, 3]", "[1, 2]"],
+        "answer": "[0, 1, 2]"
+    },
+    {
+        "question": "How do you find the index of an item in a list?",
+        "options": ["list.find(item)", "list.index(item)", "list.locate(item)", "list.search(item)"],
+        "answer": "list.index(item)"
+    },
+    {
+        "question": "What is the purpose of the 'assert' keyword?",
+        "options": ["Declares a variable", "Raises an error if condition is false", "Checks for null values", "Loops until condition is true"],
+        "answer": "Raises an error if condition is false"
+    },
+    {
+        "question": "How do you split a string?",
+        "options": ["string.split(delimiter)", "string.divide(delimiter)", "string.break(delimiter)", "string.partition(delimiter)"],
+        "answer": "string.split(delimiter)"
+    },
+    {
+        "question": "What is the output of print(2 + 3 * 4)?",
+        "options": ["20", "14", "11", "15"],
+        "answer": "14"
+    },
+    {
+        "question": "How do you check if a list is empty?",
+        "options": ["if list.empty()", "if not list:", "if list == []", "if len(list) == 0"],
+        "answer": "if not list:"
+    },
+    {
+        "question": "What is a module in Python?",
+        "options": ["A built-in function", "A file containing Python code", "A type of loop", "A class definition"],
+        "answer": "A file containing Python code"
+    },
+    {
+        "question": "How do you get the current working directory?",
+        "options": ["os.getwd()", "os.getcwd()", "sys.getcwd()", "path.current()"],
+        "answer": "os.getcwd()"
+    },
+    {
+        "question": "What is the output of print('hello'.capitalize())?",
+        "options": ["HELLO", "Hello", "hello", "hELLO"],
+        "answer": "Hello"
+    },
+    {
+        "question": "How do you create a tuple?",
+        "options": ["my_tuple = [1, 2, 3]", "my_tuple = {1, 2, 3}", "my_tuple = (1, 2, 3)", "my_tuple = tuple[1, 2, 3]"],
+        "answer": "my_tuple = (1, 2, 3)"
+    },
+    {
+        "question": "What is the purpose of the 'zip' function?",
+        "options": ["Splits iterables into lists", "Combines iterables into tuples", "Merges dictionaries", "Creates a range of values"],
+        "answer": "Combines iterables into tuples"
+    },
+    {
+        "question": "How do you count occurrences in a list?",
+        "options": ["list.count(item)", "list.frequency(item)", "list.tally(item)", "list.number(item)"],
+        "answer": "list.count(item)"
+    },
+    {
+        "question": "What is the output of print(10 / 3)?",
+        "options": ["3", "3.33", "3.3333333333333335", "4"],
+        "answer": "3.3333333333333335"
+    },
+    {
+        "question": "How do you update a dictionary value?",
+        "options": ["dict.set(key, value)", "dict[key] = value", "dict.update(key, value)", "dict.add(key, value)"],
+        "answer": "dict[key] = value"
+    },
+    {
+        "question": "What is the purpose of the 'map' function?",
+        "options": ["Filters items in an iterable", "Applies a function to all items in an iterable", "Combines iterables", "Sorts an iterable"],
+        "answer": "Applies a function to all items in an iterable"
+    },
+    {
+        "question": "How do you check if a file exists?",
+        "options": ["os.file_exists('file.txt')", "os.path.exists('file.txt')", "path.check('file.txt')", "file.exists('file.txt')"],
+        "answer": "os.path.exists('file.txt')"
+    },
+    {
+        "question": "What is the output of print('abc'[::-1])?",
+        "options": ["abc", "bca", "cba", "acb"],
+        "answer": "cba"
+    },
+    {
+        "question": "How do you create a nested list?",
+        "options": ["nested_list = ([1, 2], [3, 4])", "nested_list = [[1, 2], [3, 4]]", "nested_list = {1, 2, 3, 4}", "nested_list = [1, 2, [3, 4]]"],
+        "answer": "nested_list = [[1, 2], [3, 4]]"
+    },
+    {
+        "question": "What is the purpose of the 'filter' function?",
+        "options": ["Applies a function to all items", "Filters items in an iterable based on a function", "Combines iterables", "Sorts an iterable"],
+        "answer": "Filters items in an iterable based on a function"
+    },
+    {
+        "question": "How do you get all keys from a dictionary?",
+        "options": ["dict.keys()", "dict.get_keys()", "dict.list_keys()", "dict.all_keys()"],
+        "answer": "dict.keys()"
+    },
+    {
+        "question": "What is the output of print(type(3.14))?",
+        "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'double'>"],
+        "answer": "<class 'float'>"
+    },
+    {
+        "question": "How do you concatenate two lists?",
+        "options": ["list1.concat(list2)", "list1 + list2", "list1.merge(list2)", "list1.append(list2)"],
+        "answer": "list1 + list2"
+    },
+    {
+        "question": "What is the purpose of the 'super' function?",
+        "options": ["Calls a method from a parent class", "Creates a new class", "Initializes an instance", "Defines a static method"],
+        "answer": "Calls a method from a parent class"
+    },
+    {
+        "question": "How do you generate a random number?",
+        "options": ["random.number(min, max)", "random.randint(min, max)", "rand(min, max)", "random.generate(min, max)"],
+        "answer": "random.randint(min, max)"
+    },
+    {
+        "question": "What is the output of print(bool(''))?",
+        "options": ["True", "False", "None", "Error"],
+        "answer": "False"
+    },
+    {
+        "question": "How do you get the length of a dictionary?",
+        "options": ["dict.length()", "len(dict)", "dict.size()", "count(dict)"],
+        "answer": "len(dict)"
+    },
+    {
+        "question": "What is the purpose of the 'enumerate' function?",
+        "options": ["Sorts an iterable", "Returns index and value of iterable items", "Filters an iterable", "Maps a function to an iterable"],
+        "answer": "Returns index and value of iterable items"
+    },
+    {
+        "question": "How do you replace a substring?",
+        "options": ["string.replace(old, new)", "string.sub(old, new)", "string.swap(old, new)", "string.change(old, new)"],
+        "answer": "string.replace(old, new)"
+    },
+    {
+        "question": "What is the output of print(2 < 5)?",
+        "options": ["False", "True", "None", "Error"],
+        "answer": "True"
+    },
+    {
+        "question": "How do you clear a list?",
+        "options": ["list.clear()", "list.empty()", "list.delete()", "list.remove_all()"],
+        "answer": "list.clear()"
+    },
+    {
+        "question": "What is the purpose of the 'del' statement?",
+        "options": ["Declares a variable", "Deletes a variable or item", "Clears a loop", "Removes a function"],
+        "answer": "Deletes a variable or item"
+    },
+    {
+        "question": "How do you convert a string to a float?",
+        "options": ["str(string)", "float(string)", "int(string)", "to_float(string)"],
+        "answer": "float(string)"
+    },
+    {
+        "question": "What is the output of print('abc'.find('b'))?",
+        "options": ["0", "1", "2", "-1"],
+        "answer": "1"
+    },
+    {
+        "question": "How do you check if a string is numeric?",
+        "options": ["string.isnumber()", "string.isnumeric()", "string.isdigit()", "string.isnum()"],
+        "answer": "string.isnumeric()"
+    },
+    {
+        "question": "What is the purpose of the 'try/finally' block?",
+        "options": ["Catches exceptions", "Ensures code runs regardless of exceptions", "Retries code on failure", "Skips code on error"],
+        "answer": "Ensures code runs regardless of exceptions"
+    },
+    {
+        "question": "How do you get all values from a dictionary?",
+        "options": ["dict.values()", "dict.get_values()", "dict.list_values()", "dict.all_values()"],
+        "answer": "dict.values()"
+    },
+    {
+        "question": "What is the output of print(3 != 4)?",
+        "options": ["False", "True", "None", "Error"],
+        "answer": "True"
+    },
+    {
+        "question": "How do you create a copy of a dictionary?",
+        "options": ["dict.copy()", "dict.clone()", "dict.duplicate()", "dict.replicate()"],
+        "answer": "dict.copy()"
+    },
+    {
+        "question": "What is the purpose of the 'with' statement?",
+        "options": ["Declares a loop", "Manages resource cleanup", "Handles exceptions", "Defines a function"],
+        "answer": "Manages resource cleanup"
+    },
+    {
+        "question": "How do you check if a variable is None?",
+        "options": ["variable == None", "variable is None", "variable.equals(None)", "variable.check(None)"],
+        "answer": "variable is None"
+    },
+    {
+        "question": "What is the output of print('abc'.isalpha())?",
+        "options": ["False", "True", "None", "Error"],
+        "answer": "True"
+    },
+    {
+        "question": "How do you get the current date and time?",
+        "options": ["time.now()", "datetime.datetime.now()", "date.current()", "datetime.get_time()"],
+        "answer": "datetime.datetime.now()"
+    },
+    {
+        "question": "What is the purpose of the 'yield' keyword?",
+        "options": ["Exits a loop", "Returns a value from a generator", "Declares a variable", "Pauses a function"],
+        "answer": "Returns a value from a generator"
+    },
+    {
+        "question": "How do you remove a key from a dictionary?",
+        "options": ["dict.remove(key)", "del dict[key]", "dict.delete(key)", "dict.discard(key)"],
+        "answer": "del dict[key]"
+    },
+    {
+        "question": "What is the output of print(5 in [1, 2, 3, 4, 5])?",
+        "options": ["False", "True", "None", "Error"],
+        "answer": "True"
+    },
+    {
+        "question": "How do you check the Python version?",
+        "options": ["sys.version", "python.version()", "version.check()", "sys.get_version()"],
+        "answer": "sys.version"
+    },
+    {
+        "question": "What is the purpose of the 'staticmethod' decorator?",
+        "options": ["Initializes a class", "Defines a method that doesn't access instance/class", "Calls a parent method", "Creates a generator"],
+        "answer": "Defines a method that doesn't access instance/class"
+    },
+    {
+        "question": "How do you convert a list to a set?",
+        "options": ["list.to_set()", "set(list)", "convert_set(list)", "list.set()"],
+        "answer": "set(list)"
+    },
+    {
+        "question": "What is the output of print(' '.join(['hello', 'world']))?",
+        "options": ["helloworld", "hello,world", "hello world", "[hello, world]"],
+        "answer": "hello world"
+    },
+    {
+        "question": "What is the output of print([1, 2, 3][1:])?",
+        "options": ["[1, 2]", "[2, 3]", "[1, 2, 3]", "[1]"],
+        "answer": "[2, 3]"
+    },
+    {
+        "question": "How do you define a default parameter in a function?",
+        "options": ["def func(x = 0):", "def func(x: 0):", "def func(x := 0):", "def func(x, 0):"],
+        "answer": "def func(x = 0):"
+    },
+    {
+        "question": "What is the output of print(set([1, 1, 2, 2, 3]))?",
+        "options": ["{1, 2, 3}", "{1, 1, 2, 2, 3}", "[1, 2, 3]", "{1, 2}"],
+        "answer": "{1, 2, 3}"
+    },
+    {
+        "question": "How do you check if all elements in a list are true?",
+        "options": ["all(list)", "every(list)", "list.all()", "check_all(list)"],
+        "answer": "all(list)"
+    },
+    {
+        "question": "What is the output of print(ord('A'))?",
+        "options": ["65", "97", "A", "1"],
+        "answer": "65"
+    },
+    {
+        "question": "How do you create a frozenset in Python?",
+        "options": ["frozenset([1, 2, 3])", "set([1, 2, 3])", "frozen([1, 2, 3])", "immutable_set([1, 2, 3])"],
+        "answer": "frozenset([1, 2, 3])"
+    },
+    {
+        "question": "What is the output of print('python'.startswith('py'))?",
+        "options": ["True", "False", "None", "Error"],
+        "answer": "True"
+    },
+    {
+        "question": "How do you check if a string ends with a suffix?",
+        "options": ["string.ends_with(suffix)", "string.endswith(suffix)", "string.has_suffix(suffix)", "string.check_end(suffix)"],
+        "answer": "string.endswith(suffix)"
+    },
+    {
+        "question": "What is the output of print(min([5, 2, 8, 1]))?",
+        "options": ["1", "2", "5", "8"],
+        "answer": "1"
+    },
+    {
+        "question": "How do you import a specific function from a module?",
+        "options": ["from module import function", "import function from module", "module.import(function)", "use module.function"],
+        "answer": "from module import function"
+    },
+    {
+        "question": "What is the output of print('abc'.count('a'))?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "1"
+    }
+]
