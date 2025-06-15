@@ -1,7 +1,12 @@
+const express = require('express');
+const jwt = require('jsonwebtoken');
+const User = require('../models/User');
+
+const router = express.Router(); // ✅ This line was missing
+
 router.post('/login', async (req, res) => {
   try {
     const { username } = req.body;
-
     if (!username || typeof username !== 'string') {
       return res.status(400).json({ message: 'Valid username required' });
     }
@@ -9,11 +14,6 @@ router.post('/login', async (req, res) => {
     let user = await User.findOne({ username });
     if (!user) {
       user = await User.create({ username });
-    }
-
-    if (!process.env.JWT_SECRET) {
-      console.error('JWT_SECRET is missing!');
-      return res.status(500).json({ message: 'JWT secret not configured' });
     }
 
     const token = jwt.sign(
@@ -28,3 +28,5 @@ router.post('/login', async (req, res) => {
     res.status(500).json({ message: 'Server error during login' });
   }
 });
+
+module.exports = router;
